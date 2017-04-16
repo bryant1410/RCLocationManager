@@ -18,7 +18,7 @@ $ git clone git@github.com:rcabamo/RCLocationManager.git
 - Include the header file:
 
 ```objc
-#import "RCLocationManager.h"
+# import "RCLocationManager.h"
 ```
 
 - Create a ```RCLocationManager``` and suscribe the notifications. Example:
@@ -35,7 +35,7 @@ RCLocationManager *locationManager = [[RCLocationManager alloc] initWithUserDist
 ## Compatibility
 - Supports ARC. If you want to use it in a project without ARC, mark ```RCLocationManager.m``` with the linker flag ```-fobjc-arc```.
 
-##Credits
+## Credits
 
 Thanks to [Alejandro Martinez](https://twitter.com/alexito4) for his help :)
 
